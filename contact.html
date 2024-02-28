@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <title>Water & Ridge | Contact</title>
+    <meta name="author" content="briahna phillips">
+    <meta name="description" content="contact us">
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <section class="hero-image">
+            <div class="hero-text">
+                <h1><a href="index.html">Water & Ridge Resort</a></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </section>
+
+    </header>
+
+    <main>
+        <div class="grid-container-2">
+            <section>
+                <h2>
+                    Contact Us
+                </h2>
+                <p id="form-instructions">Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                    Required fields marked with a *
+                </p>
+
+                <img src="images/swiss-peak.jpg" alt="mountain-scene" width="350" height="455">
+            </section>
+            <div class="form">
+                <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+                    <p>
+                        <label for="name">*Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </p>
+                    <p>
+                        <label for="email">*Email Address:</label>
+                        <input type="email" placeholder="name@domain.com" required>
+                    </p>
+                    <p>
+                    <label for="phone">*Phone Number:</label>
+                        <input type="tel" placeholder="(###) ###-####" required>
+                        </p>
+                    <fieldset>
+                        <legend>*Preferred Contact Method</legend>
+
+                                <input type="radio" name="preferred" value="1" id="email" required>
+                                <label for="email">Email</label>
+                                <input type="radio" name="preferred" value="2" id="phone">
+                                <label for="phone">Phone</label>
+                    </fieldset>
+                    <p>
+                        <label for="comments">*Comments</label><br>
+                        <textarea id="comments" name="comments" placeholder="" rows="2" cols="20" required></textarea>
+                    </p>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy;2023 - Water & Ridge
+        </p>
+        <p>
+            This site is for educational purposes only
+        </p>
+
+    </footer>
